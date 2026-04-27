@@ -6,7 +6,18 @@
       "Bash(pdftoppm -r 150 \"/Users/mohith/Downloads/Nishan/Home page figma.pdf\" /tmp/nishan_page)",
       "Read(//private/tmp/**)",
       "Bash(sips *)",
-      "Bash(npx create-next-app@latest inyou-wellness --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\")"
+      "Bash(npx create-next-app@latest inyou-wellness --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\")",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001)",
+      "Bash(npx playwright *)",
+      "Bash(node -e ' *)",
+      "Bash(pdfimages -list \"/Users/mohith/Downloads/Nishan/Home page figma.pdf\")",
+      "Bash(mkdir -p /tmp/pdf-images)",
+      "Bash(pdfimages -j \"/Users/mohith/Downloads/Nishan/Home page figma.pdf\" /tmp/pdf-images/img)",
+      "Bash(awk '$5 ~ /K/ && $5+0 > 20 || $5 ~ /M/')",
+      "Bash(awk '{print $5, $9}')"
     ]
   }
 }
