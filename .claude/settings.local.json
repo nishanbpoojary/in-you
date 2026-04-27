@@ -17,7 +17,9 @@
       "Bash(mkdir -p /tmp/pdf-images)",
       "Bash(pdfimages -j \"/Users/mohith/Downloads/Nishan/Home page figma.pdf\" /tmp/pdf-images/img)",
       "Bash(awk '$5 ~ /K/ && $5+0 > 20 || $5 ~ /M/')",
-      "Bash(awk '{print $5, $9}')"
+      "Bash(awk '{print $5, $9}')",
+      "Bash(git rm *)",
+      "Bash(git add *)"
     ]
   }
 }
